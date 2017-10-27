@@ -1,0 +1,314 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background:black;
+}
+
+section#main-menu {
+	background-image: url("../img/mainmenu.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	height: 100vh;
+
+}
+
+	nav#navigation-field-main-menu li{
+		list-style-type: none;
+	
+	}
+	li#about-legion-main-menu {
+		float: left;
+		
+	}
+
+section#about-legion {
+	background-image: url("../img/page1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	height: 100vh;
+
+}
+
+section#experiences {
+	background-image: url("../img/page2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	height: 100vh;
+	
+
+}
+
+section#sightseeing {
+	background-image: url("../img/page3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	
+	height: 100vh;
+
+}
+
+section#lore {
+	background-image: url("../img/page4.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	height: 100vh;
+
+
+}
+	
+
+li {
+	float: left;
+}
+
+nav#navigation-field-legion ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #1b2918;
+	display: inline-block;
+}
+
+nav#navigation-field-legion{
+	text-align: center;
+}
+	
+	li a.a-legion{
+	display: block;
+	padding: 18px 20px;
+	text-decoration:none;
+	color: #a1ff37;
+	font-family: Sans-serif;
+	font-weight: Bold;
+	}
+	
+	li.active-legion{
+	 background-color: #1f541e;
+	}
+	
+nav#navigation-field-experience ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #f0b859;
+	display: inline-block;	
+}
+	nav#navigation-field-experience{
+		text-align: center;
+	}
+	
+	li a.a-experience{
+	display: block;
+	padding: 18px 20px;
+	text-decoration:none;
+	color: white;
+	font-family: Sans-serif;
+	font-weight: Bold;
+	
+	}
+	
+	li.active-experience{
+	 background-color: #56567c;
+	}
+
+nav#navigation-field-sight ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #c42840;
+	display: inline-block;	
+}
+	nav#navigation-field-sight{
+		text-align: center;
+	}
+	
+	li a.a-sight{
+	display: block;
+	padding: 18px 20px;
+	text-decoration:none;
+	color: white;
+	font-family: Sans-serif;
+	font-weight: Bold;
+	
+	}
+	
+	li.active-sight{
+	 background-color: #331b29;
+	}
+
+nav#navigation-field-lore ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #695cae;
+	display: inline-block;	
+}
+	nav#navigation-field-lore{
+		text-align: center;
+	}
+	
+	li a.a-lore{
+	display: block;
+	padding: 18px 20px;
+	text-decoration:none;
+	color: white;
+	font-family: Sans-serif;
+	font-weight: Bold;
+	
+	}
+	
+	li.active-lore{
+	 background-color: #5eaeff;
+	}
+
+h1{	
+	font-family: Arial Black;
+	font-style: initial;
+	Margin: 0px;
+	font-size: 30px;
+}
+
+#menu-container {
+	position: absolute;
+	width:28vw;
+	height: 28vw;
+	min-width: 600px;
+	min-height: 600px;
+}
+
+	#diamond {
+		position:absolute;
+		top: 5%;
+		left: 5%;
+		width: 90%;
+		hight: 90%;
+	}
+
+	#top-left-menu{
+		position:absolute;
+		width: 50%;
+		hight: 50%;
+		top: 0px;
+	}
+	
+	#top-right-menu {
+		position:absolute;
+		width: 50%;
+		hight: 50%;
+		top: 0px;
+		right: 0px;
+	}
+	
+	#bottom-left-menu {
+		position:absolute;
+		width: 50%;
+		hight: 50%;
+		bottom: 0px ;
+		
+	}
+	
+	#bottom-right-menu {
+		position:absolute;
+		width: 50%;
+		hight: 50%;
+		bottom: 0px;
+		right: 0px; 
+	}
+	
+	h1#title-main{
+		align-self: flex-start;
+		color: #74ab1b;
+		margin-bottom: 88vh;
+	}
+	
+	
+h1#title-legion{
+	color: #a1ff37;
+	
+}
+
+h1#title-experience{
+	color: #f0b859;
+}
+	
+h1#title-sight{
+	color: #c42840;
+}
+	
+h1#title-lore{
+	
+	color: #ffffff;
+}
+	
+#about-legion-content{
+	width: 1000px;
+	height: 500px; 
+	border-width: 10px;
+	border-color: #a1ff37;
+	border-style: solid;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 120vh;
+	left: 35vh;
+
+	
+}
+
+#experiences-content{
+	width: 1000px;
+	height: 500px; 
+	border-width: 10px;
+	border-color: #f0b859;
+	border-style: solid;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 220vh;
+	left: 35vh;
+	
+}
+
+#sightseeing-content{
+	width: 1000px;
+	height: 500px; 
+	border-width: 10px;
+	border-color: #c42840;
+	border-style: solid;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 320vh;
+	left: 35vh;
+	
+}
+
+#lore-content{
+	width: 1000px;
+	height: 500px; 
+	border-width: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 420vh;
+	left: 35vh;
+	
+}
+	
+
+
+		
